@@ -1,3 +1,69 @@
 body, html {
     box-sizing: border-box;
 }
+
+.header {
+    background-color: rgb(248, 248, 232);
+    padding: 4em 2em;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 3em;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.section-conatiner {
+    width: 90%;
+    margin: 0  auto;
+    padding: 0.5em 1em;
+}
+
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+
+.header p {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    padding: 6em;
+}
+
+.description h2 {
+    text-align: center;
+}
+
+.custom-for-you {
+    background-color: black;
+    padding: 6em;
+}
+
+.created-with-care{
+    background-color: brown;
+    padding: 6em;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+
+.flex p {
+    line-height: 1.5;
+}

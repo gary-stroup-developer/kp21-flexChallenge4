@@ -10,24 +10,51 @@
     </head>
     <body>
         <header class="header">
-            <div class="container row">
-                <p>lorem ipsum sit</p>
-                <h1>Responsive layouts don’t have to be a struggle</h1>
+            <div class="flex">
+                <div class="header__container">
+                    <p>lorem ipsum sit</p>
+                    <h1>Responsive layouts don’t have to be a struggle</h1>
+                </div>
             </div>
+
         </header>
         <main class="main-content">
-            <section class="description section-container">
-                <h2>Quality Designs</h2>
-                <div class="flex">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique. Arcu dui vivamus arcu felis. Sociis natoque penatibus et magnis dis.</p>
-                    <p>Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet luctus venenatis. Turpis in eu mi bibendum neque egestas congue quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.</p>
+            <section class="description">
+                <div class="container">
+                    <h2>Quality Designs</h2>
+                    <div class="flex">
+                        <p class="box flex-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique. Arcu dui vivamus arcu felis. Sociis natoque penatibus et magnis dis.</p>
+                        <p class="box flex-p">Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet luctus venenatis. Turpis in eu mi bibendum neque egestas congue quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.</p>
+                    </div>
+                </div>
+
+            </section>
+            <section class="custom-for-you">
+                <div class="flex container">
+                    <div class="box">
+                        <div class="box__alignment-container">
+                            <h2>Made Custom for You</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="./image-01.jpg" alt="person viewing sunset">
+                    </div>
+                </div> 
+            </section>
+            <section class="created-with-care">
+                <div class="flex container">
+                    <div class="box">
+                        <img src="./image-02.jpg" alt="person viewing sunset">
+                    </div>
+                    <div class="box">
+                        <div class="box__alignment-container">
+                            <h2>Created With Care</h2>
+                            <p>Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet luctus venenatis. Turpis in eu mi bibendum neque egestas congue quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section class="custom-for-you section-container">
-                <div class="box"></div>
-                <div class="box"></div>
-            </section>
-            <section class="created-with-care section-container"></section>
         </main>
     </body>
 </html>
